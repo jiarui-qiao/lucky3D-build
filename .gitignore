@@ -1,0 +1,42 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local Android SDK configuration
+local.properties
+
+# Gradle
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Native build output
+.cxx/
+.externalNativeBuild/
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
+.worktrees/
+.superpowers/
+
+# Generated design draft; the canonical UI specification is docs/design-spec.md
+/design-spec.md
+
+# Locally signed release artifacts
+artifacts/
+
+# Python tool bytecode cache
+__pycache__/
+*.pyc
